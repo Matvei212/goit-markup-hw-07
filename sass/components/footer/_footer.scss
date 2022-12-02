@@ -1,0 +1,48 @@
+/* футер */
+.footer {
+    background-color: var(--second-background-color);
+    padding: 60px 0px;
+}
+
+.footer__logo {
+    display: flex;
+    margin-bottom: 20px;
+
+    color: var(--primary-white-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+}
+
+
+
+.footer__addres {
+    color: var(--primary-white-color);
+    font-style: normal;
+    line-height: 1.7143;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__addres:hover,
+.footer__addres:focus {
+    color: var(--accent-color);
+}
+
+.footer__contacts {
+    color: var(--footer-contacts-color);
+    line-height: 1.7142;
+    font-style: normal;
+
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__contacts:hover,
+.footer__contacts:focus {
+    color: var(--accent-color);
+}
+
+.footer__item:not(:last-child) {
+    margin-bottom: 9px;
+}

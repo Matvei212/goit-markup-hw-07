@@ -1,0 +1,68 @@
+/* Футтер форма */
+.footer__form {
+    margin-left: auto;
+}
+
+.footer__form-field {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.footer__input-mail {
+    min-width: 358px;
+    min-height: 50px;
+    margin: 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    color: var(--primary-white-color);
+
+    padding-left: 16px;
+
+    background-color: var(--second-background-color);
+
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer__input-mail:hover,
+.footer__input-mail:focus {
+    border-color: var(--accent-color);
+    outline: none;
+}
+
+.footer__label-mail {
+
+
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: var(--primary-white-color);
+
+}
+
+.footer__button {
+    display: flex;
+    gap: 10px;
+
+    justify-content: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-white-color);
+    fill: var(--primary-white-color);
+}

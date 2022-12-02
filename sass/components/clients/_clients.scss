@@ -1,0 +1,30 @@
+/* Клієнти */
+.client__list {
+    display: inline-flex;
+    gap: 30px;
+}
+
+.client__link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid var(--color-icon);
+    border-radius: 4px;
+    color: var(--color-icon);
+    cursor: pointer;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.client__link:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+
+}
+
+.client__icon {
+    fill: currentColor;
+}

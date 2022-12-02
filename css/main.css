@@ -1,10 +1,4 @@
 @charset "UTF-8";
-/* основной цвет  color: #212121;*/
-/* вторичный цвет color: #757575; */
-/* акцент color: #2196F3 */
-/* белый color: #FFFFFF;  */
-/* черный color: #000000; */
-/* футер контакты color: rgba(255, 255, 255, 0.6); */
 :root {
   --primary-text-color: #757575;
   --title-text-color: #212121;
@@ -542,6 +536,12 @@ p {
   gap: 30px;
 }
 
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
 .job__product {
   position: relative;
 }
@@ -874,7 +874,6 @@ p {
   fill: var(--primary-white-color);
 }
 
-/* ПОРТФОЛІО */
 .filter__list {
   margin-bottom: 50px;
   display: -webkit-box;

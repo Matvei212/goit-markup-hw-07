@@ -1,0 +1,70 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196f3;
+    --primary-white-color: #ffffff;
+    --black-color: #000000;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --second-background-color: #2f303a;
+    --pasiv-button-color: #188ce8;
+    --active-button-color: #2196f3;
+    --portfolio-button-color: #f5f4fa;
+    --color-border-card: #eeeeee;
+    --color-icon: #afb1b8;
+}
+
+
+
+.body {
+    color: var(--title-text-color);
+    background-color: var(--primary-white-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+}
+
+.container {
+
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0px auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.logo {
+    color: var(--black-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.1923;
+    padding: 23px 0px;
+    margin-right: 93px;
+}
+
+.logo__piece {
+    color: var(--accent-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0%;
+}
+
+p {
+    margin: 0%;
+}
+
+
