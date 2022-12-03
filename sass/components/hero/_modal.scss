@@ -63,7 +63,8 @@
 
 .modal__button:hover,
 .modal__button:focus {
-    color: var(--active-button-color);
+    color: $active-button-color;
+   
     cursor: pointer;
 }
 
@@ -79,7 +80,7 @@
     text-align: center;
     letter-spacing: 0.03em;
 
-    color: var(--title-text-color);
+    color: $title-text-color;
 }
 
 
@@ -91,13 +92,13 @@
 
 .modal__form-field:hover,
 .modal__form-field:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 
 
 }
 
 .modal__form-field:focus-within>.form-icon {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 
@@ -108,14 +109,14 @@
     border-radius: 4px;
     padding-left: 42px;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal__input:hover,
 .modal__input:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     outline: none;
 }
 
@@ -131,7 +132,7 @@
     line-height: 1.16px;
     letter-spacing: 0.01em;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
 }
 
@@ -144,12 +145,12 @@
     padding: 12px 16px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 }
 
 .modal__textarea:hover,
 .modal__textarea:focus {
-    border-color: var(--accent-color);
+    border-color: $accent-color;
     outline: none;
 }
 
@@ -165,7 +166,7 @@
     line-height: 1.71px;
     letter-spacing: 0.03em;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
 
     margin-bottom: 30px;
     margin-top: 20px;
@@ -176,7 +177,7 @@
     display: inline-block;
     width: 16px;
     height: 15px;
-    border: 2px solid var(--title-text-color);
+    border: 2px solid $title-text-color;
     border-radius: 2px;
     margin-right: 8.38px;
 
@@ -184,8 +185,8 @@
 }
 
 .modal__input-checkbox:checked+.modal__checkbox-icon {
-    border-color: var(--accent-color);
-    background-color: var(--active-button-color);
+    border-color: $accent-color;
+    background-color: $active-button-color;
     background-image: url(../image/full-check.svg);
     background-size: contain;
     background-origin: border-box;
@@ -195,7 +196,7 @@
 
 
 .modal__checkbox-link {
-    color: var(--accent-color);
+    color: $accent-color;
     text-decoration: underline;
 }
 
@@ -220,7 +221,7 @@
     text-align: center;
     letter-spacing: 0.06em;
 
-    color: var(--primary-white-color);
+    color: $primary-white-color;
 }
 
 .modal__input-checkbox {

@@ -1,7 +1,7 @@
 /* Кнопка */
 .button {
-    color: var(--primary-white-color);
-    background-color: var(--pasiv-button-color);
+    color: $primary-white-color;
+    background-color: $pasiv-button-color;
     cursor: pointer;
     display: inline-block;
     padding: 10px 32px;
@@ -13,5 +13,5 @@
 
 .button:hover,
 .button:focus {
-    background-color: var(--active-button-color);
+    background-color: $active-button-color;
 }

@@ -25,7 +25,7 @@
     font-size: 18px;
     line-height: 1.55;
     letter-spacing: 0.03em;
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     background-color: rgba(33, 150, 243, 0.9);
     border: none;
     padding: 63px 24px;
@@ -42,9 +42,9 @@
 
 .work__card {
     padding: 20px 24px;
-    border-left: 1px solid var(--color-border-card);
-    border-right: 1px solid var(--color-border-card);
-    border-bottom: 1px solid var(--color-border-card);
+    border-left: 1px solid $color-border-card;
+    border-right: 1px solid $color-border-card;
+    border-bottom: 1px solid $color-border-card;
 }
 
 .work__link {
@@ -67,7 +67,7 @@
 }
 
 .work__title {
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -76,7 +76,7 @@
 }
 
 .work__text {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 16px;
     line-height: 1.875;
 }

@@ -1,12 +1,12 @@
 /* Герой */
 .hero {
-    background-color: var(--second-background-color);
+    background-color: $second-background-color;
     text-align: center;
     padding: 200px 0px 200px;
 }
 
 .hero__title {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3637;
