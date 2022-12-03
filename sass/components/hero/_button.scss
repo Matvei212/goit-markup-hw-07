@@ -9,9 +9,9 @@
     min-width: 216px;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+    &:focus{background-color: $active-button-color;}
+
 }
 
-.button:hover,
-.button:focus {
-    background-color: $active-button-color;
-}
