@@ -1,19 +1,4 @@
 @charset "UTF-8";
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --primary-white-color: #ffffff;
-  --black-color: #000000;
-  --footer-contacts-color: rgba(255, 255, 255, 0.6);
-  --second-background-color: #2f303a;
-  --pasiv-button-color: #188ce8;
-  --active-button-color: #2196f3;
-  --portfolio-button-color: #f5f4fa;
-  --color-border-card: #eeeeee;
-  --color-icon: #afb1b8;
-}
-
 .body {
   color: var(--title-text-color);
   background-color: var(--primary-white-color);
@@ -63,6 +48,20 @@ h6 {
 
 p {
   margin: 0%;
+}
+
+:root {
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --black-color: #000000;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --second-background-color: #2f303a;
+  --pasiv-button-color: #188ce8;
+  --active-button-color: #2196f3;
+  --portfolio-button-color: #f5f4fa;
+  --color-border-card: #eeeeee;
+  --color-icon: #afb1b8;
 }
 
 /* Навігація */

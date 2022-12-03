@@ -1,6 +1,6 @@
 /* футер */
 .footer {
-    background-color: var(--second-background-color);
+    background-color: $second-background-color;
     padding: 60px 0px;
 }
 
@@ -8,7 +8,7 @@
     display: flex;
     margin-bottom: 20px;
 
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
@@ -18,7 +18,7 @@
 
 
 .footer__addres {
-    color: var(--primary-white-color);
+    color: $primary-white-color;
     font-style: normal;
     line-height: 1.7143;
 
@@ -27,11 +27,11 @@
 
 .footer__addres:hover,
 .footer__addres:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .footer__contacts {
-    color: var(--footer-contacts-color);
+    color: $footer-contacts-color;
     line-height: 1.7142;
     font-style: normal;
 
@@ -40,7 +40,7 @@
 
 .footer__contacts:hover,
 .footer__contacts:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .footer__item:not(:last-child) {

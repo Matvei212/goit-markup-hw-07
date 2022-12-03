@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
 
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-weight: 500;
     line-height: 1.1429;
     letter-spacing: 0.02em;
@@ -24,7 +24,7 @@
 
 .contacts__link:hover,
 .contacts__link:focus {
-    color: var(--accent-color);
+    color: $accent-color;
 }
 
 .contacts__icon {

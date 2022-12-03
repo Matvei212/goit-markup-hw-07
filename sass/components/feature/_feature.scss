@@ -6,7 +6,7 @@
 }
 
 .feature__title {
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 700;
     line-height: 1.1429;
     margin-top: 0%;
@@ -16,7 +16,7 @@
 }
 
 .feature__text {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     line-height: 1.743;
     margin: 0%;
 }
@@ -29,7 +29,7 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 30px;
-    background-color: var(--portfolio-button-color);
+    background-color: $portfolio-button-color;
 }
 
 .feature__item {

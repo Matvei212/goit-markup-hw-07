@@ -533,12 +533,10 @@ p {
   display: flex;
   gap: 30px;
 }
-
-// img {
-//     display: block;
-//     height: auto;
-//     max-width: 100%;
-// }
+ img {     
+  display: block;
+  height: auto;     
+  max-width: 100%; }
 
 .job__product {
   position: relative;

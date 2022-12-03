@@ -2,7 +2,7 @@
 
 
 .comand {
-    background-color: var(--portfolio-button-color);
+    background-color: $portfolio-button-color;
 }
 
 .comand__list {
@@ -11,7 +11,7 @@
 }
 
 .comand__item {
-    background-color: var(--primary-white-color);
+    background-color: $primary-white-color;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-bottom-left-radius: 4px;
@@ -23,7 +23,7 @@
 }
 
 .comand__name {
-    color: var(--title-text-color);
+    color: $title-text-color;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.1875;
@@ -32,7 +32,7 @@
 }
 
 .comand__text {
-    color: var(--primary-text-color);
+    color: $primary-text-color;
     font-size: 16px;
     line-height: 1.1875;
     text-align: center;
@@ -58,8 +58,8 @@
     align-items: center;
     justify-content: center;
     border: none;
-    color: var(--color-icon);
-    background-color: var(--primary-white-color);
+    color: $color-icon;
+    background-color: $primary-white-color;
     border-radius: 50%;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -69,8 +69,8 @@
 
 .comand__link:hover,
 .comand__link:focus {
-    color: var(--primary-white-color);
-    background-color: var(--accent-color);
+    color: $primary-white-color;
+    background-color: $accent-color;
 
 }
 
