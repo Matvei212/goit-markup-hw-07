@@ -22,7 +22,7 @@
 
     background-color: $second-background-color;
 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color $transition;
      
     &:hover , &:focus {
             border-color: $accent-color;
@@ -36,7 +36,7 @@
 
 
 
-    font-family: 'Roboto';
+    font-family: $base-font;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -54,7 +54,7 @@
 
     justify-content: center;
 
-    font-family: 'Roboto';
+    font-family: $base-font;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

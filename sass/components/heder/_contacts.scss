@@ -1,5 +1,7 @@
 /* Контакти хедер */
 .contacts {
+    @extend %list;
+
     display: flex;
     gap: 50px;
     align-items: center;
@@ -18,7 +20,7 @@
     min-width: 122px;
     padding: 32px 0px;
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $transition;
 
     &:hover,
         &:focus{color: $accent-color;}

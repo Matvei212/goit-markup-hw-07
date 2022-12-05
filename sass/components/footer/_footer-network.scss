@@ -15,14 +15,16 @@
 }
 
 .footer__text {
-    font-family: Roboto;
+    font-family: $base-font;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     color: $primary-white-color;
 }
 
-.footer__list {
+.footer__network-list {
+    @extend %list;
+
     display: inline-flex;
     gap: 10px;
     margin-top: 20px;
@@ -38,8 +40,8 @@
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color $transition,
+        color $transition;
 
     &:hover , &:focus {
             color: $primary-white-color;

@@ -8,8 +8,8 @@
     background-color: rgba(0, 0, 0, 0.1);
 
 
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: opacity $transition,
+        visibility $transition;
 
 }
 
@@ -54,7 +54,7 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 
 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $transition;
 }
 
 .modal__close-icon {
@@ -72,7 +72,7 @@
 .modal__title {
     margin-bottom: 30px;
 
-    font-family: 'Roboto';
+    font-family:$base-font;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -86,7 +86,7 @@
 
 .modal__form-field {
     position: relative;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color $transition;
 }
 
 
@@ -111,7 +111,7 @@
 
     color: $primary-text-color;
 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color $transition;
 }
 
 .modal__input:hover,
@@ -125,7 +125,7 @@
     top: -10px;
     left: 0;
     padding: 0%;
-    font-family: 'Roboto';
+    font-family: $base-font;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -143,7 +143,7 @@
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     padding: 12px 16px;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color $transition;
 
     color: $primary-text-color;
 }
@@ -159,7 +159,7 @@
     align-items: center;
     justify-content: center;
 
-    font-family: 'Roboto';
+    font-family: $base-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -181,7 +181,7 @@
     border-radius: 2px;
     margin-right: 8.38px;
 
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color $transition;
 }
 
 .modal__input-checkbox:checked+.modal__checkbox-icon {
@@ -212,7 +212,7 @@
     height: 50px;
     margin: auto;
 
-    font-family: 'Roboto';
+    font-family: $base-font;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;

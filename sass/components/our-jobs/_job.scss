@@ -4,6 +4,7 @@
 }
 
 .job__works {
+    @extend %list;
     display: flex;
     gap: 30px;
 }
